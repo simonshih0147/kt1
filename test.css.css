@@ -1,0 +1,115 @@
+ 
+  *{box-sizing: border-box}   /*box 範圍自動調整*/ 
+                      [class *='col-']  { width:100%;  float:left;padding-bottom:  0vw} /*屬性選哲擇器*/
+                       /*tablet 版面pixclass定義共12區分Tablet*/ 
+                       [class *=col-] {
+                         width: 100%;
+                         float: left;
+                         padding: 0vw;
+                       }
+                        @media only screen and (min-width:992px){
+                                                                                .col-m-1{width:8.33%;}
+                                                                                .col-m-2{width:16.66%;}
+                                                                                .col-m-3{width:25%;}
+                                                                                .col-m-4{width:33.33%;}
+                                                                                .col-m-5{width:41.66%;}
+                                                                                .col-m-6{width:50%;}
+                                                                                .col-m-7{width:58.33%;}
+                                                                                .col-m-8{width:66.66%;}   
+                                                                                .col-m-9{width:75%;}
+                                                                                .col-m-10{width:83.33%;}
+                                                                                .col-m-11{width:91.66%;}
+                                                                                .col-m-12{width:100%;}
+                                                                                      }
+                        /*PC*版面定義pix*/
+                       @media only screen and (min-width:1200px){
+                                                                                .col-1{width:8.33%;}
+                                                                                .col-2{width:16.66%;}
+                                                                                .col-3{width:25%;}
+                                                                                .col-4{width:33.33%;}
+                                                                                .col-5{width:41.66%;}
+                                                                                .col-6{width:50%;}
+                                                                                .col-7{width:58.33%;}
+                                                                                .col-8{width:66.66%;}   
+                                                                                .col-9{width:75%;}
+                                                                                .col-10{width:83.33%;}
+                                                                                .col-11{width:91.66%;}
+                                                                                .col-12{width:100%;}
+                                                                                           }  
+                        nav {background-color:white;height: 10%}
+                      /*  ul {list-style: none;display: inline-flex}*/
+                        nav ul{list-style: none;display:inline-flex ;background-color:navy;border:0;padding-left: 0rem}
+                        nav a{color :white;text-decoration: none}
+                        nav li{padding:0.8vw}
+                        nav li:hover{background-color: darkgreen;border-left: 1px solid;border-right: 1px solid}      
+                          /*navCSS*/
+                        header{background-image:url('image/fruit/apple_v.png'),url('image/fruit/apple_v.png'),
+                               url('image/fruit/guava.jpg');height:15vh;width:100%; display: flex;justify-content: center ;align-items:  center;
+                               color: white;font-size: 40px; 
+                          /*     background-size:5%, 5%,cover;*/
+                               background-repeat: no-repeat;
+                               background-position:left bottom, right center,center}   
+                         
+                          /*id for menu */                               
+                        .menu{padding: 0px;margin: 0px;background-size:10%}
+                        .menu ul {list-style: none;padding: 0px;margin: 0px;background-size:10%}
+
+                        .menu li{margin-bottom: 10%;border-bottom: #29bf12 1px solid;border-radius: 5px;padding: 5px
+                                    ;background-color:white;float:bottom;background-size:10%}                      
+                        .menu li:hover{background-color:forestgreen;background-image:url('image/fruit/apple_v.png');background-size: 10%;
+                                             background-repeat:no-repeat;background-position: 100%;cursor: pointer;
+                                          }  
+                        .menu a:hover{color:white;}
+                        .menu video{
+                                  width:100%;border-radius: 5px;border: 1px green solid ;padding: 2px;
+                                       box-shadow:2px 10px 5px 1px rgba(100,100,100,0.2)
+                        }
+                        .menu audio{width:100%;border-radius: 5px;border: 1px green solid ;padding: 5px;
+                                       box-shadow:2px 10px 5px 1px rgba(100,100,100,0.2) ;background-position: 0vh;
+                        }
+                         /*id for Div */
+                         #d1{width: 100%;
+                                   height: 45vh;
+                                    overflow-y:  scroll;
+                                    border-bottom: 1px solid green;font-family: 'Noto Sans TC', sans-serif;
+                                      <!--  background-image: url('image/fruit/apple.jpg')-->;
+                                        margin-bottom:  5%;font-family: 'Noto Sans TC', sans-serif;
+                    
+                                   }
+                         .content{text-align: justify}  
+                         .content iframe{width:100%;border-radius: 5px;border: 1px green solid ;padding: 2px;
+                                       box-shadow:2px 10px 5px 1px rgba(100,100,100,0.2) 
+                             
+                         }
+                         .content iframe{width:100%; 
+                                               border: 1px green solid;
+                                               border-radius: 5px 
+                         }
+                          .content #yt{   width:33%;
+                                               height: 60vh;
+                                               float: left;
+                                               border: 1px green solid;
+                                               border-radius: 5px 
+                         }
+                          .content #myyt{width:66%;
+                                               height:60vh ;
+                                               float: left;
+                                               border: 1px green solid;
+                                               border-radius: 5px 
+                         }
+                     
+                            /*  .menu a {color :black;text-decoration: none;border-bottom: 1px;padding: 3px;background-color: white; */
+                          /*id for picture */                                             
+                      .onsale img{width:22vw;float: right;border-radius: 5px;border: 1px green solid ;padding: 2px;
+                                       box-shadow:2px 10px 5px 1px rgba(100,100,100,0.2)} 
+                    footer{
+                            position: fixed;
+                            left:0px;
+                            bottom: 0px;
+                            background-color: lightgray;
+                            color: graytext;
+                            width: 100%;
+                            text-align: center;
+                            padding: 8px;  
+                     }
+
